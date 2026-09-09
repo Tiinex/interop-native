@@ -1,0 +1,5 @@
+interop-native
+
+First-party native Tiinex interoperability — provider-agnostic bootstrap, grounding, external tool/capability contracts and automation surfaces over Tiinex Core.
+
+Grounding boundary: follow repository-local Tasks under .topics/refactor and the controlling Business Turn-2 repository-decomposition frontier. OpenAI-specific environment behavior belongs in interop-openai.
