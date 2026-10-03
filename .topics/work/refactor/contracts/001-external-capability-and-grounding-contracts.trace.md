@@ -44,8 +44,8 @@ Repository-local work for this subarea only. Do not expand into sibling reposito
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-provider-agnostic-interoperability-frontier.trace.md](../001-provider-agnostic-interoperability-frontier.trace.md)
-  - Value: boNQgq0l2SHPjw_ibT-dZ7DIFQMDcmwQd2jY_8JMXx8
+  - Value: WFpK0GsmoU0SHFgNxXvKJzfusYwYEbd9qN6oqHyDeXs
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: eydT8rupJAWqOp3tA54TOmNKgnLG76JFW25FxdiYMvs
+  - Value: 01CwGSfFrrQhsS9oLyIuNzsjv2PvGBuDJloLdBv01Fw
