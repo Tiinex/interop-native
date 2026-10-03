@@ -2,4 +2,7 @@ interop-native
 
 First-party native Tiinex interoperability — provider-agnostic bootstrap, grounding, external tool/capability contracts and automation surfaces over Tiinex Core.
 
-Grounding boundary: follow repository-local Tasks under .topics/refactor and the controlling Business Turn-2 repository-decomposition frontier. OpenAI-specific environment behavior belongs in interop-openai.
+Grounding boundary:
+- Start from `.topics/.workspaces/tiinex-interop-native.workspace.md` and the Workspace fresh-start Reduction under `.topics/reductions/workspace/`.
+- Historical refactor work is reduced; no prior refactor Task is current. Future Interop Native work starts from a new explicit bounded Task with truthful Project ancestry.
+- OpenAI-specific environment behavior belongs in `interop-openai`; shared semantic mechanics remain in Core.
