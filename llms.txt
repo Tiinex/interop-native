@@ -1,8 +1,7 @@
-interop-native
+# Tiinex/interop-native LLM Bootstrap
 
-First-party native Tiinex interoperability — provider-agnostic bootstrap, grounding, external tool/capability contracts and automation surfaces over Tiinex Core.
+This repository uses Tiinex. `.topics/**` and qualified source material are semantic/provenance authority; this file is only a bootstrap hint.
 
-Grounding boundary:
-- Start from `.topics/.workspaces/tiinex-interop-native.workspace.md` and the Workspace fresh-start Reduction under `.topics/reductions/workspace/`.
-- Historical refactor work is reduced; no prior refactor Task is current. Future Interop Native work starts from a new explicit bounded Task with truthful Project ancestry.
-- OpenAI-specific environment behavior belongs in `interop-openai`; shared semantic mechanics remain in Core.
+Use Tiinex Tooling to discover and qualify the Workspace entrypoint under `.topics/.workspaces`, then follow only the qualified artifacts and processes applicable to the current task.
+
+Do not use `llms.txt` or `README.md` as an artifact index, current-work declaration, or substitute for Tiinex discovery/grounding.

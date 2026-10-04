@@ -8,6 +8,8 @@ Own the default environment-agnostic Interop implementation without becoming sem
 
 Generic bootstrap experience belongs here. Environment-specific additions belong in dedicated Interop repositories such as `interop-openai`. Generic Handoff/package mechanics remain in Core.
 
+Installing `@tiinex/interop-native` installs Core mechanics and, by default, the optional `@tiinex/native` first-party content package. Core discovers reusable Tiinex content by following the installed package dependency graph and registered `.topics` surfaces; `interop-native` does not maintain a second path index or copy Native content. Consumers that omit optional dependencies can run Core without Native and select their own compatible content packages instead.
+
 ## Distribution
 
 - npm: `@tiinex/interop-native`

@@ -2,7 +2,7 @@
   "name": "@tiinex/interop-native",
   "version": "0.1.0",
   "private": false,
-  "description": "First-party native Tiinex interoperability — provider-agnostic bootstrap, grounding, external tool and capability contracts, and automation surfaces over Tiinex Core.",
+  "description": "First-party native Tiinex interoperability \u2014 provider-agnostic bootstrap, grounding, external tool and capability contracts, and automation surfaces over Tiinex Core.",
   "type": "module",
   "license": "Apache-2.0",
   "repository": {
@@ -31,10 +31,13 @@
     "release:prepare": "node tools/release.mjs prepare",
     "release:publish": "node tools/release.mjs publish"
   },
-  "devDependencies": {
-    "@tiinex/core": "0.1.1"
-  },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@tiinex/core": "0.1.1"
+  },
+  "optionalDependencies": {
+    "@tiinex/native": "0.1.0"
   }
 }

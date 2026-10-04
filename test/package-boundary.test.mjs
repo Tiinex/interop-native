@@ -8,6 +8,9 @@ test('package and release policy bind the interop-native repository identity', a
   assert.equal(pkg.name,'@tiinex/interop-native');
   assert.equal(pkg.repository.url,'git+https://github.com/Tiinex/interop-native.git');
   assert.equal(policy.repository,'Tiinex/interop-native');
+  assert.equal(pkg.dependencies?.['@tiinex/core'],'0.1.1');
+  assert.equal(pkg.optionalDependencies?.['@tiinex/native'],'0.1.0');
+  assert.equal(pkg.devDependencies,undefined);
   const publicModule=await import('../src/index.js');
   assert.deepEqual(Object.keys(publicModule),[]);
 });
